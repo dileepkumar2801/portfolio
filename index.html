@@ -1,0 +1,317 @@
+<!--
+code by dk
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+  <a href="#" class="name">DILEEP KUMAR</a>
+
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+
+    <div class="dropdown">
+      <a href="#" class="dropbtn">Skills</a>
+
+      <div class="dropdown-menu">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JavaScript</a>
+      </div>
+    </div>
+
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+    <hr />
+    <main>
+      <div class="img-pad"><img src="images\prof_photo.png" /></div>
+      <div class="info">
+        <h3>I am <span>A Dileep kumar</span></h3>
+        <p class="web">Web Developer</p>
+        <p>I build websites using HTML,CSS and JavaScript</p>
+      </div>
+      <hr />
+      <div class="about">
+        <h3>ABOUT ME</h3>
+        <p>
+          I am Dileep, a passionate and aspiring web developer who enjoys
+          creating clean, responsive, and user-friendly websites. I have a good
+          foundation in HTML and CSS and I’m currently learning JavaScript to
+          build more interactive web applications. I enjoy learning new
+          technologies, solving problems, and turning ideas into real projects.
+          My goal is to continuously improve my skills and grow as a
+          professional web developer.
+        </p>
+        <hr />
+      </div>
+      <div class="skills">
+        <h3>SKILLS</h3>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript Basics</p>
+        <p>C Basics</p>
+        <p>GitHub</p>
+      </div>
+      <div class="projects">
+        <h3>PROJECTS</h3>
+        <p>College Website</p>
+        <p>Titan website</p><hr>
+      </div>
+      <div class="contact">
+        <h3>CONTACT</h3>
+        <div class="icons">
+          <a href=""><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/dileep-kumar-avula-40b97737b/" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a>
+          <a href="https://github.com/dileepkumar2801" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <i class="fa-solid fa-phone"></i>
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+      </div>
+    </main>
+  </body>
+</html><!-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Dileep Kumar | Portfolio</title>
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header>
+
+    <a href="#home" class="name">DILEEP KUMAR</a>
+
+    <!-- Mobile Menu Button -->
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+
+      <!-- Close Button -->
+      <button class="close-btn" onclick="toggleMenu()">✕</button>
+
+      <a href="#home">Home</a>
+
+      <a href="#about">About</a>
+
+      <!-- Skills Dropdown -->
+      <div class="dropdown">
+
+        <a href="#skills" class="dropbtn">Skills</a>
+
+        <div class="dropdown-menu">
+          <a href="#html">HTML</a>
+          <a href="#css">CSS</a>
+          <a href="#javascript">JavaScript</a>
+        </div>
+
+      </div>
+
+      <a href="#projects">Projects</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+  </header>
+
+
+  <hr>
+
+
+  <!-- ================= MAIN ================= -->
+
+  <main>
+
+    <!-- HOME -->
+
+    <section id="home" class="home">
+
+      <div class="img-pad">
+        <img src="images/prof_photo.png" alt="Dileep Kumar">
+      </div>
+
+      <div class="info">
+
+        <h3>
+          I am <span>A Dileep Kumar</span>
+        </h3>
+
+        <p class="web">
+          Web Developer
+        </p>
+
+        <p>
+          I build websites using HTML, CSS and JavaScript.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <hr>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+      <h3>ABOUT ME</h3>
+
+      <p>
+        I am Dileep, a passionate and aspiring web developer who enjoys
+        creating clean, responsive, and user-friendly websites. I have a good
+        foundation in HTML and CSS and I’m currently learning JavaScript to
+        build more interactive web applications. I enjoy learning new
+        technologies, solving problems, and turning ideas into real projects.
+        My goal is to continuously improve my skills and grow as a
+        professional web developer.
+      </p>
+
+    </section>
+
+
+    <hr>
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="skills">
+
+      <h3>SKILLS</h3>
+
+      <div id="html">
+        <p>HTML</p>
+      </div>
+
+      <div id="css">
+        <p>CSS</p>
+      </div>
+
+      <div id="javascript">
+        <p>JavaScript Basics</p>
+      </div>
+
+      <p>C Basics</p>
+
+      <p>GitHub</p>
+
+    </section>
+
+
+    <hr>
+
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="projects">
+
+      <h3>PROJECTS</h3>
+
+      <p>College Website</p>
+
+      <p>Titan Website</p>
+
+    </section>
+
+
+    <hr>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+      <h3>CONTACT</h3>
+
+      <div class="icons">
+
+        <a href="mailto:yourmail@example.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/dileep-kumar-avula-40b97737b/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-square-linkedin"></i>
+        </a>
+
+        <a
+          href="https://github.com/dileepkumar2801"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <i class="fa-solid fa-phone"></i>
+
+        <i class="fa-solid fa-location-dot"></i>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script>
+
+    function toggleMenu() {
+
+      document
+        .getElementById("navbar")
+        .classList.toggle("active");
+
+    }
+
+  </script>
+
+</body>
+
+</html>
